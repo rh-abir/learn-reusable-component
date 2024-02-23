@@ -1,11 +1,15 @@
 import "./App.css";
-import MainLayout from "./components/layout/MainLayout";
+import Button from "./components/ui/Button";
+import Container from "./components/ui/Container";
 
 function App() {
   return (
-    <div>
-      <MainLayout />
-    </div>
+    <Container>
+      <div className="h-screen w-full flex justify-center items-center">
+        <h1>This is a text</h1>
+        <Button className="" variant="" />
+      </div>
+    </Container>
   );
 }
 
