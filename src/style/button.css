@@ -1,13 +1,26 @@
 @layer components {
-    .btn {
-        @apply px-4 py-2 rounded-md
+    .btn-solid {
+        @apply px-4 py-2 rounded-md;
+        @apply bg-purple-400;
+        @apply font-semibold rounded-md text-white hover:bg-purple-800 focus:bg-purple-800;
+        @apply transition-all
     }
 
-    .btn-primary {
-        @apply bg-red-500
+    .btn-outline {
+        @apply px-4 py-2 rounded-md;
+        @apply bg-purple-400 bg-opacity-10 hover:bg-opacity-20 focus:bg-opacity-20;
+        @apply font-semibold rounded-md text-purple-500;
+        @apply border border-purple-400;
+        @apply transition-all
     }
 
-    .btn-danger {
-        @apply bg-yellow-400
+    .btn-ghost {
+        @apply px-4 py-2 rounded-md;
+        @apply bg-purple-400 bg-opacity-0 hover:bg-opacity-20 focus:bg-opacity-20;
+        @apply font-semibold rounded-md text-purple-500;
+        @apply transition-all
     }
+
+
+
 }

@@ -6,8 +6,7 @@ function App() {
   return (
     <Container>
       <div className="h-screen w-full flex justify-center items-center">
-        <h1>This is a text</h1>
-        <Button className="" variant="" />
+        <Button variant="solid">Opne Modal</Button>
       </div>
     </Container>
   );
