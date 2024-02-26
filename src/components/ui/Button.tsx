@@ -29,8 +29,6 @@ const Button = forwardRef<TRef, TButton>(
       }
     };
 
-    console.log(getVariant(variant));
-
     return (
       <button
         {...rest}
