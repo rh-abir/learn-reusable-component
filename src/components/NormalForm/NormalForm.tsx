@@ -95,6 +95,7 @@ const NormalForm = () => {
             )}
           </div>
         </div>
+
         <div
           className={cn(" grid grid-cols-1 justify-items-center  gap-6 my-8", {
             "md:grid-cols-2 col-start-2": double,
